@@ -1,0 +1,82 @@
+body{
+    background-image:linear-gradient(180deg, rgb(216, 207, 76)0%, rgb(90, 209, 201)100%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+.container{
+    background-image: linear-gradient(180deg, rgb(46, 19, 109)0%, rgb(57, 16, 168)100%);
+    margin: auto;
+    height: 450px;
+    width: 100%;
+    max-width: 600px;
+    min-height: 200px;
+    padding: 40px;
+    border-radius: 20px;
+    
+}
+.searchInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchCity{
+    border-radius: 50px;
+    width: 200px;
+    height: 30px;
+    padding-left: 20px;
+    font-family: cursive;
+    border: black;
+}
+.searchicon{
+    border-radius: 70px;
+    margin-left: 5px;
+    height: 35px;
+    width: 35px;
+    border: black;
+}
+.weatherIcon{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.temperature{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    font-family:cursive;
+
+
+}
+.cityName{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.bottomContainer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.humidity-speed{
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+}
+.text{
+    font-size: 15px;
+}
+.temperature{
+    text-shadow: 2px 2px 4px #f3b416, -2px -2px 4px #100f0f;
+}
